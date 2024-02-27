@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap'); @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); 
+
+:root{
+    --background: #222831;
+    --cor-primaria: #EEEEEE;
+    --cor-secundaria: #00ADB5;
+    --cor-hover: #393E46;
+
+    --Krona:'Krona One', sans-serif;
+    --Montserrat: 'Montserrat', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--background);
+    color: var(--cor-primaria);
+    
+}
+.apresentaçao {
+    padding: 5% 13%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 82px;
+}
+
+.conteudo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+   
+.texto_titulo {
+    font-size: 2.25rem;
+    font-family: var(--Krona);
+    /* margin: 0 10% 0 0; */
+}
+
+.titulo {
+    color: var(--cor-secundaria);
+}
+
+.texto_paragrafo {
+    font-size: 1.5rem;
+    font-family: var(--Montserrat);
+    /* margin: 0 10% 0 0; */
+}
+
+.imagem{
+    width: 50% ;
+}
+
+.botao {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    /* margin: 0 10% 0 0; */
+}
+
+.editar-botao {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding:21.5px 0;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    border: 2px solid var(--cor-secundaria);
+    font-family: var(--Montserrat);
+}
+
+.editar-botao:hover{
+    background-color: var(--cor-hover);
+}
+
+.links_novos {
+    font-size: 1.5rem;
+    font-family: var(--Krona);
+    font-weight: 600;
+}
+
+.rodape {
+    background-color: var(--cor-secundaria);
+    color: var(--background);
+    padding: 24px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:var(--Montserrat);
+    font-weight: 400;
+}
+
+.cabecalho{
+    padding: 2% 0  0 13%;
+}
+
+.cabecalho_menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho_link {
+    font-family:var(--Montserrat);
+    color: var(--cor-secundaria);
+    font-size: 1.375rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+@media (max-width: 1200px){
+    .apresentaçao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .conteudo{
+        width: auto;
+    }
+
+    .cabecalho{
+        padding: 10%;
+    }
+    .cabecalho_menu{
+        justify-content: center;
+    }
+}

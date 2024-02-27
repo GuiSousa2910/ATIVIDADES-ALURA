@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<script>
+
+    function pulaLinha(pula) {
+        document.write("<br>")
+    }
+
+    function mostra(mostra) {
+        document.write(mostra)
+        pulaLinha()
+    }
+
+    var vitoria = parseInt(prompt("Entre com o numeros de vitorias"))
+    var empates = parseInt(prompt("Entre com o numeros de empates"))
+    // 1 vitoria = 3 pontos ; 1 empate = 1 ponto
+    var total = vitoria * 3 + empates;
+    mostra("Os pontos do seu time é " + total)
+    if (total > 27) {
+        mostra("Seu time está melhor que o ano passado")
+    }
+
+    if (total < 27) {
+        mostra("Seu time está pior que no ano passado")
+    }
+
+    if (total == 27){
+        mostra("Seu time está igual ao ano passado")
+    }
+
+</script>
