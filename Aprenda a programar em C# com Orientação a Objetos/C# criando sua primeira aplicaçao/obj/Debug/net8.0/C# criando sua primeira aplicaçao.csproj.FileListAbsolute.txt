@@ -1,0 +1,15 @@
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\bin\Debug\net8.0\C# criando sua primeira aplicaçao.exe
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\bin\Debug\net8.0\C# criando sua primeira aplicaçao.deps.json
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\bin\Debug\net8.0\C# criando sua primeira aplicaçao.runtimeconfig.json
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\bin\Debug\net8.0\C# criando sua primeira aplicaçao.dll
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\bin\Debug\net8.0\C# criando sua primeira aplicaçao.pdb
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\obj\Debug\net8.0\C# criando sua primeira aplicaçao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\obj\Debug\net8.0\C# criando sua primeira aplicaçao.AssemblyInfoInputs.cache
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\obj\Debug\net8.0\C# criando sua primeira aplicaçao.AssemblyInfo.cs
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\obj\Debug\net8.0\C# criando sua primeira aplicaçao.csproj.CoreCompileInputs.cache
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\obj\Debug\net8.0\C# criando sua primeira aplicaçao.sourcelink.json
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\obj\Debug\net8.0\C# criando sua primeira aplicaçao.dll
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\obj\Debug\net8.0\refint\C# criando sua primeira aplicaçao.dll
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\obj\Debug\net8.0\C# criando sua primeira aplicaçao.pdb
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\obj\Debug\net8.0\C# criando sua primeira aplicaçao.genruntimeconfig.cache
+C:\Users\Gui\Downloads\ATIVIDADES-ALURA\Aprenda a programar em C# com Orientação a Objetos\C# criando sua primeira aplicaçao\obj\Debug\net8.0\ref\C# criando sua primeira aplicaçao.dll
