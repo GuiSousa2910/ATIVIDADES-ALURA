@@ -18,5 +18,5 @@ print(mediaPonderavel(n1, n2, n3))
 # Notas do(a) estudante
 notas = [6.0, 7.0, 9.0, 5.5, 8.0]
 qualitativo = 0.5
-notasAtt = map(lambda x: x + qualitativo, notas)
-notasAtt = print(list(notasAtt))
+notasAtt = map(lambda x: x + qualitativo, notas) # faz oq foi pedido em cada item da lista
+notasAtt = print(list(notasAtt)) # list ele traduz o map
