@@ -46,3 +46,23 @@ arrumandoNan = np.mean([Kaliningrad[3], Kaliningrad[5]]) # faz uma media dos val
 Kaliningrad[4] = arrumandoNan
 plt.plot(datas, Kaliningrad)
 plt.show()
+
+plt.plot(datas, Moscow)
+plt.show()
+
+x = datas
+y = 2*x +80
+plt.plot(datas, Moscow)
+plt.plot(x,y)
+plt.show()
+
+print(Moscow-y)
+
+Y = Moscow
+X = x
+n = np.size(Moscow)
+a = (n*np.sum(X*Y) - np.sum(X)*np.sum(Y))/(n*np.sum(X**2) - np.sum(X)**2)
+
+b = np.mean(Y) - a* np.mean(X)
+y = a*X+b
+np.linalg.norm(Moscow - Y)
