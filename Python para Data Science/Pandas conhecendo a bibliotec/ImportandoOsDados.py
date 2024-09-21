@@ -38,12 +38,18 @@ imoveis_comerciais = ['Conjunto Comercial/Sala',
                       'Loteamento/Condomínio', 'Sítio',
                       'Pousada/Chalé', 'Hotel', 'Indústria']
 somenteImoveisComerciais = dados.query('@imoveis_comerciais in Tipo')
-naoImoveisComerciais = dados.query('@imoveis_comerciais not in Tipo')
+imoveisNaoComerciais = dados.query('@imoveis_comerciais not in Tipo')
 
-visualizacaoImoveisFiltrados = naoImoveisComerciais.Tipo.unique()
+visualizacaoImoveisFiltrados = imoveisNaoComerciais.Tipo.unique()
 #print(visualizacaoImoveisFiltrados)
 
-mediaValorAgrupadoFiltrado = naoImoveisComerciais.groupby('Tipo')[['Valor']].mean().sort_values('Valor').round(2)
+mediaValorAgrupadoFiltrado = imoveisNaoComerciais.groupby('Tipo')[['Valor']].mean().sort_values('Valor').round(2)
 mediaValorAgrupadoFiltrado.plot(kind='barh', figsize=(14, 10), color ='blue')
-plt.show()
 
+percentualTipos = imoveisNaoComerciais['Tipo'].value_counts(normalize=True).to_frame()
+percentualTipos.plot(kind='bar', figsize=(14, 10), color ='green', edgecolor='black',
+                        xlabel = 'Tipos', ylabel = 'Percentual')
+
+imoveisNaoComerciais = imoveisNaoComerciais.query('Tipo == "Apartamento"')
+print(imoveisNaoComerciais.head())
+plt.show()
