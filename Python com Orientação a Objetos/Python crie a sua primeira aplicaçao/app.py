@@ -1,5 +1,4 @@
-import os as os
-from asyncio import wait_for
+import os
 
 
 def exibir_infos():
@@ -16,9 +15,11 @@ def retorneMenu():
     input('Precione ENTER para voltar')
     main()
 
+
 def subtitulo(texto):
     os.system('cls')
     print(texto)
+
 
 def finalizar():
     subtitulo('Finalizando Programa...')
@@ -30,22 +31,32 @@ def opcaoInvalida():
     retorneMenu()
 
 
-restaurante = []
+restaurante = [{'nome': 'Praça', 'categoria': 'Japonesa', 'ativo': False},
+                {'nome': 'Pizza Superma', 'categoria': 'Pizza', 'ativo': True},
+                {'nome': 'Cantina', 'categoria': 'Italiano', 'ativo': False}]
 
 
 def cadastrar_restaurante():
     subtitulo('Cadatro de Restaurantes')
+
     nomeRestaurante = input('Insira o nome do resturante: ')
-    restaurante.append(nomeRestaurante)
+    categoriaRestaurante = input(f'Insira a categoria do restaurante {nomeRestaurante}: ')
+
+    dadosRestaurante = [{'nome': nomeRestaurante, 'categoria': categoriaRestaurante, 'ativo': False}]
+    restaurante.append(dadosRestaurante)
+
     print(f'O restaurante {nomeRestaurante} foi cadastrado!\n')
+
     retorneMenu()
 
 
 def mostrarRestaurantes():
     subtitulo('Listando Restaurantes')
     if len(restaurante) > 0:
+        categoria = restaurante['categoria']
+        ativacao = restaurante['ativo']
         for i in range(0, len(restaurante)):
-            print(f'{i + 1}. {restaurante[i]}\n')
+            print(f'{i + 1} - {restaurante['nome']} | {categoria} | {ativacao}\n')
     else:
         print('Não existe um cadastro de restaurante!')
     retorneMenu()
